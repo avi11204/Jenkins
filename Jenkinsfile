@@ -66,7 +66,7 @@ pipeline {
     environment {
         IMAGE_NAME = "avanthikha/my-app"
         REGISTRY = "docker.io"
-        APP_DIR = "/home/vboxuser/opt/jenkins/"
+        APP_DIR = "/home/vboxuser/Downloads/Jenkins-main/"
         DOCKER_USER = "avanthikha"          // Replace with your Docker Hub username
         DOCKER_PASS = "H@rsa2000"          // Replace with your Docker Hub password
     }
