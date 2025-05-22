@@ -41,14 +41,14 @@ pipeline {
             }
         }
 
-    //     stage('Deploy using Docker Compose') {
-    //         steps {
-    //             script {
-    //                 sh "docker compose up -d"
-    //             }
-    //         }
-    //     }
-    // }
+        stage('Deploy using Docker Compose') {
+            steps {
+                script {
+                    sh "docker compose up -d"
+                }
+            }
+        }
+    }
 
     post {
         success {
